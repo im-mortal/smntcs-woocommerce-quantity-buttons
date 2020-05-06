@@ -34,6 +34,9 @@ before_install:
   # @link https://twitter.com/kelunik/status/954242454676475904
   - phpenv config-rm xdebug.ini || echo 'No xdebug config.'
 
+  # Update npm to the latest version
+  - npm i npm@latest -g
+
   - composer install
   - npm install
 
