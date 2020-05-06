@@ -1,4 +1,10 @@
+language:
+  - php
+
 dist: trusty
+
+os:
+  - linux
 
 cache:
   directories:
@@ -7,8 +13,6 @@ cache:
     # Cache directory for more recent Composer versions.
     - $HOME/.cache/composer/files
 
-language:
-  - php
 
 php:
   - 5.6
